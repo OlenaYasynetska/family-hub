@@ -24,7 +24,7 @@ export default function SearchAndFilter({
   
   const { isOpen: showFilters, toggle: toggleFilters } = useToggle(false);
   const { query, setQuery, handleSearch } = useSearch({
-    onSearch: (searchQuery) => {
+    onSearch: () => {
       // Фильтрация будет происходить в useMemo
     }
   });
