@@ -1,0 +1,36 @@
+{
+  "title": "Page Not Found",
+  "description": "Sorry, the page you're looking for doesn't exist.",
+  "subDescription": "You may have entered an incorrect address or the page has been moved.",
+  "buttons": {
+    "home": "Go to Homepage",
+    "services": "Browse Services"
+  },
+  "help": {
+    "title": "Need Help?",
+    "sections": [
+      {
+        "icon": "🏠",
+        "title": "Homepage",
+        "description": "Find all family services",
+        "bgColor": "bg-purple-600"
+      },
+      {
+        "icon": "📋",
+        "title": "Service Catalog",
+        "description": "Browse all available services",
+        "bgColor": "bg-blue-600"
+      },
+      {
+        "icon": "💬",
+        "title": "Support",
+        "description": "Contact our support team",
+        "bgColor": "bg-green-600"
+      }
+    ]
+  },
+  "search": {
+    "text": "Or try searching for what you need:",
+    "button": "Search Services"
+  }
+}

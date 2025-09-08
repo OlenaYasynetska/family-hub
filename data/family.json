@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Ion Popov",
+    "role": "Father",
+    "age": 35,
+    "image": "/images/family/father.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Maria Popov",
+    "role": "Mother", 
+    "age": 32,
+    "image": "/images/family/mother.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ana Popov",
+    "role": "Daughter",
+    "age": 8,
+    "image": "/images/family/daughter.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Alex Popov",
+    "role": "Son",
+    "age": 5,
+    "image": "/images/family/son.jpg"
+  }
+]

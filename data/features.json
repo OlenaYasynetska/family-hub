@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Safe & Secure",
+    "description": "All providers are verified and background checked",
+    "icon": "shield-check"
+  },
+  {
+    "id": 2,
+    "title": "Easy Booking",
+    "description": "Book services in just a few clicks",
+    "icon": "calendar"
+  },
+  {
+    "id": 3,
+    "title": "24/7 Support",
+    "description": "Round-the-clock customer support",
+    "icon": "phone"
+  },
+  {
+    "id": 4,
+    "title": "Quality Guaranteed",
+    "description": "Satisfaction guaranteed or your money back",
+    "icon": "star"
+  }
+]

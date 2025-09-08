@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Professional Babysitting",
+    "description": "Experienced babysitter for children of all ages",
+    "price": 25,
+    "rating": 4.8,
+    "image": "/images/babysitting.jpg",
+    "category": "Childcare",
+    "location": "Chișinău",
+    "provider": "Maria Popov",
+    "features": ["CPR Certified", "First Aid", "Educational Activities"]
+  },
+  {
+    "id": 2,
+    "title": "Birthday Party Planning",
+    "description": "Complete birthday party organization and entertainment",
+    "price": 150,
+    "rating": 4.9,
+    "image": "/images/party.jpg",
+    "category": "Events",
+    "location": "Bălți",
+    "provider": "Party Masters",
+    "features": ["Decorations", "Entertainment", "Catering"]
+  },
+  {
+    "id": 3,
+    "title": "Math Tutoring",
+    "description": "Professional math tutoring for students",
+    "price": 30,
+    "rating": 4.7,
+    "image": "/images/tutoring.jpg",
+    "category": "Education",
+    "location": "Tiraspol",
+    "provider": "EduCenter",
+    "features": ["Online Sessions", "Homework Help", "Test Prep"]
+  }
+]
