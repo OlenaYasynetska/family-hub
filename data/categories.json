@@ -3,7 +3,7 @@
     "id": 1,
     "icon": "👶",
     "title": "Babysitting & Childcare",
-    "bgColor": "bg-purple-500",
+    "bgColor": "bg-pink-500",
     "textColor": "text-white"
   },
   {
@@ -11,7 +11,7 @@
     "icon": "🎂",
     "title": "Party Planning",
     "bgColor": "bg-yellow-400",
-    "textColor": "text-white"
+    "textColor": "text-gray-800"
   },
   {
     "id": 3,
@@ -31,14 +31,14 @@
     "id": 5,
     "icon": "🏕️",
     "title": "Camps & Activities",
-    "bgColor": "bg-purple-500",
+    "bgColor": "bg-green-500",
     "textColor": "text-white"
   },
   {
     "id": 6,
     "icon": "🎭",
     "title": "Animation & Shows",
-    "bgColor": "bg-blue-500",
+    "bgColor": "bg-purple-500",
     "textColor": "text-white"
   }
 ]
