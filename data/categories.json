@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "icon": "👶",
+    "title": "Babysitting & Childcare",
+    "bgColor": "bg-purple-500",
+    "textColor": "text-white"
+  },
+  {
+    "id": 2,
+    "icon": "🎂",
+    "title": "Party Planning",
+    "bgColor": "bg-yellow-400",
+    "textColor": "text-white"
+  },
+  {
+    "id": 3,
+    "icon": "📚",
+    "title": "Education & Tutoring",
+    "bgColor": "bg-blue-500",
+    "textColor": "text-white"
+  },
+  {
+    "id": 4,
+    "icon": "🎵",
+    "title": "Music & Art",
+    "bgColor": "bg-orange-500",
+    "textColor": "text-white"
+  },
+  {
+    "id": 5,
+    "icon": "🏕️",
+    "title": "Camps & Activities",
+    "bgColor": "bg-purple-500",
+    "textColor": "text-white"
+  },
+  {
+    "id": 6,
+    "icon": "🎭",
+    "title": "Animation & Shows",
+    "bgColor": "bg-blue-500",
+    "textColor": "text-white"
+  }
+]

@@ -24,14 +24,25 @@ export default function Footer({ className = '' }: FooterProps) {
             
             {/* Social Media Icons */}
             <div className="flex space-x-4">
-              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                <span className="text-purple-600 font-bold text-sm">f</span>
+              {/* Facebook */}
+              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center hover:bg-gray-100 hover:scale-110 hover:rotate-3 transition-all duration-300 cursor-pointer group">
+                <span className="text-purple-600 font-bold text-lg group-hover:text-purple-700 transition-colors duration-300">f</span>
               </div>
-              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                <span className="text-purple-600 font-bold text-sm">📷</span>
+              {/* Instagram */}
+              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center hover:bg-gray-100 hover:scale-110 hover:rotate-3 transition-all duration-300 cursor-pointer group">
+                <div className="relative group-hover:animate-pulse">
+                  <div className="w-6 h-6 border-2 border-purple-600 rounded-lg group-hover:border-purple-700 transition-colors duration-300"></div>
+                  <div className="absolute top-1 left-1 w-3 h-3 border-2 border-purple-600 rounded-full group-hover:border-purple-700 transition-colors duration-300"></div>
+                  <div className="absolute top-0 right-0 w-2 h-2 bg-purple-600 rounded-full group-hover:bg-purple-700 transition-colors duration-300"></div>
+                </div>
               </div>
-              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                <span className="text-purple-600 font-bold text-sm">🐦</span>
+              {/* Twitter */}
+              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center hover:bg-gray-100 hover:scale-110 hover:rotate-3 transition-all duration-300 cursor-pointer group">
+                <div className="text-purple-600 font-bold text-lg group-hover:text-purple-700 transition-colors duration-300 group-hover:animate-bounce">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="group-hover:rotate-12 transition-transform duration-300">
+                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
@@ -107,7 +118,7 @@ export default function Footer({ className = '' }: FooterProps) {
         {/* Copyright */}
         <div className="border-t text-center" style={{borderColor: 'rgba(255, 255, 255, 0.3)', paddingTop: '2rem', margin: '48px 0 0 0'}}>
           <p className="text-white text-sm">
-            © 2024 Yayando. All rights reserved. Made with ❤️ for families in Moldova.
+            © 2024 Yayando. All rights reserved. Made with for families in Moldova.
           </p>
         </div>
       </div>

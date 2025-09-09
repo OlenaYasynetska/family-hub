@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "quote": "Excellent service! The babysitter was professional and my kids loved her. Highly recommended!",
+    "author": "Sarah Johnson",
+    "role": "Mother of 2",
+    "avatarColor": "bg-purple-600"
+  },
+  {
+    "id": 2,
+    "quote": "The party planning service made my daughter&apos;s birthday perfect. Everything was organized beautifully!",
+    "author": "Mike Chen",
+    "role": "Father of 1",
+    "avatarColor": "bg-blue-600"
+  }
+]

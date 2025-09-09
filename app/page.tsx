@@ -3,8 +3,15 @@
 import React from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import CategoryGrid from '@/components/sections/CategoryGrid';
+import TestimonialsSection from '@/components/sections/TestimonialsSection';
+import { getCategories, getTestimonials } from '@/lib/data';
 
 export default function Home() {
+  // Получаем данные из JSON файлов
+  const categories = getCategories();
+  const testimonials = getTestimonials();
+
   return (
     <div className="min-h-screen bg-white flex flex-col">
       <Header />
@@ -48,53 +55,11 @@ export default function Home() {
         
         {/* Остальной контент */}
         <div className="max-w-[1400px] mx-auto py-4 px-4">
-          {/* Browse by Category Section */}
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">Browse by Category</h2>
-            <p className="text-gray-600">Find exactly what you're looking for.</p>
-          </div>
+          {/* Category Grid */}
+          <CategoryGrid categories={categories} />
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-            <div className="bg-orange-400 h-32 rounded-lg flex items-center justify-center">
-              <span className="text-white font-semibold">Category 1</span>
-            </div>
-            <div className="bg-yellow-400 h-32 rounded-lg flex items-center justify-center">
-              <span className="text-gray-800 font-semibold">Category 2</span>
-            </div>
-            <div className="bg-blue-400 h-32 rounded-lg flex items-center justify-center">
-              <span className="text-white font-semibold">Category 3</span>
-            </div>
-          </div>
-
           {/* Testimonials Section */}
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">What Parents Say</h2>
-            <p className="text-gray-600">Real reviews from real families</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <p className="text-gray-700 mb-4">"Excellent service! The babysitter was professional and my kids loved her. Highly recommended!"</p>
-              <div className="flex items-center">
-                <div className="w-10 h-10 bg-purple-600 rounded-full mr-3"></div>
-                <div>
-                  <p className="font-semibold">Sarah Johnson</p>
-                  <p className="text-sm text-gray-600">Mother of 2</p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <p className="text-gray-700 mb-4">"The party planning service made my daughter's birthday perfect. Everything was organized beautifully!"</p>
-              <div className="flex items-center">
-                <div className="w-10 h-10 bg-blue-600 rounded-full mr-3"></div>
-                <div>
-                  <p className="font-semibold">Mike Chen</p>
-                  <p className="text-sm text-gray-600">Father of 1</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <TestimonialsSection testimonials={testimonials} />
         </div>
       </main>
 

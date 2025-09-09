@@ -42,3 +42,7 @@ export interface ServiceCategory {
 export type ServicesResponse = Service[];
 export type FeaturesResponse = Feature[];
 export type FamilyResponse = FamilyMember[];
+
+// Re-export other types
+export * from './category';
+export * from './testimonial';

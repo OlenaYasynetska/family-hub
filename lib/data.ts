@@ -1,7 +1,9 @@
-import { Service, Feature, FamilyMember, ServicesResponse, FeaturesResponse, FamilyResponse } from '@/types';
+import { Service, Feature, FamilyMember, Category, Testimonial, ServicesResponse, FeaturesResponse, FamilyResponse, CategoriesResponse, TestimonialsResponse } from '@/types';
 import servicesData from '@/data/services.json';
 import featuresData from '@/data/features.json';
 import familyData from '@/data/family.json';
+import categoriesData from '@/data/categories.json';
+import testimonialsData from '@/data/testimonials.json';
 
 // Синхронные функции для статических данных
 export function getServices(): Service[] {
@@ -14,6 +16,14 @@ export function getFeatures(): Feature[] {
 
 export function getFamilyMembers(): FamilyMember[] {
   return familyData as FamilyMember[];
+}
+
+export function getCategories(): Category[] {
+  return categoriesData as Category[];
+}
+
+export function getTestimonials(): Testimonial[] {
+  return testimonialsData as Testimonial[];
 }
 
 // Асинхронные функции для динамической загрузки (если понадобятся)
